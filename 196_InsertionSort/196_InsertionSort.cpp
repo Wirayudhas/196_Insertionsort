@@ -69,3 +69,10 @@ void display() {                                                // Prosedur disp
 	}
 	cout << endl;                                           // Output baris kosong
 }
+
+int main()
+{
+	input();           // Memanggil input
+	insertionsort();   // Memanggil insertion
+	display();         // Memanggil display
+}
